@@ -6,7 +6,9 @@
   "browser": "dist/index.js",
   "module": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 8001",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -24,10 +26,16 @@
     "url": "https://github.com/Cryptopians/nos-reactissues"
   },
   "homepage": "https://github.com/Cryptopians/nos-react#readme",
-  "peerDependencies": {
-    "react": "16.3.x"
-  },
   "devDependencies": {
-    
+    "@storybook/react": "3.4.3",
+    "@storybook/addon-actions": "3.4.3",
+    "@storybook/addon-links": "3.4.3",
+    "@storybook/addons": "3.4.3",
+    "babel-core": "6.26.3",
+    "babel-runtime": "6.26.0"
+  },
+  "dependencies": {
+    "react": "16.3.2",
+    "react-dom": "16.3.2"
   }
 }
