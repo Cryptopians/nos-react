@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/images/logo.png" width="150px" height="auto" /> 
+  <img src="./logo.png" width="150px" height="auto" /> 
 </p>
 
 <h1 align="center">@cryptopians/nos-react</h1>
