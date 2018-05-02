@@ -6,9 +6,9 @@
   "browser": "dist/index.js",
   "module": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 8001",
-    "build-storybook": "build-storybook -o docs"
+		"build": "build-storybook -o docs",
+		"start": "start-storybook -p 8001",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
